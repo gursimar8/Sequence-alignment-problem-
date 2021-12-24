@@ -1,6 +1,13 @@
 # sequence-alignment-problem
 Basic version (only DP) vs Memory efficient version using Divide and Conquer and Dynamic Programming
 
+**-> Why the efficient and basic versions have different memory and time plots.
+
+Let length (String1) = m and length (String2) = n.
+
+Memory comparison: 
+The basic version (only dynamic programming) takes much more memory as compared to the memory efficient solution (Divide and Conquer + Dynamic Programming). 
+
 •	Observation for memory improvement:
 The basic dynamic programming solution uses m x n 2d grid to calculate the optimal similarity score of the sequence alignment.
 However, optimal alignment score can be computed by using only two columns i.e., the current column and the column just before the current one. 
@@ -15,3 +22,14 @@ It can be observed from the Memory vs Problem Size graph:
 1.	The memory for both basic and memory efficient implementations has an increasing trend for increasing problem size. 
 2.	The memory efficient implementation uses far less memory than the basic implementation.
 3.	The line graph for memory efficient version increases very slowly with increasing problem size as compared to basic version. 
+
+
+-> Time comparison:
+Let length (String1) = m and length (String2) = n.
+Both the basic and memory efficient versions are implemented in O(mn) as we loop through each character of both strings.
+
+It can be observed from the Time vs Problem Size:
+1.	The time for both basic and memory efficient implementations has an increasing trend for increasing problem size. 
+2.	The memory efficient implementation takes more time than the basic implementation with increasing problem size this is because Divide and Conquer approach uses more computations as compared to basic version. 
+
+
