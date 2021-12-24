@@ -1,7 +1,7 @@
 Insights and Observations:
 
 
-B.	Why the efficient and basic versions have different memory and time plots.
+-> Why the efficient and basic versions have different memory and time plots.
 
 Let length (String1) = m and length (String2) = n.
 
@@ -24,7 +24,7 @@ It can be observed from the Memory vs Problem Size graph:
 3.	The line graph for memory efficient version increases very slowly with increasing problem size as compared to basic version. 
 
 
-Time comparison:
+-> Time comparison:
 Let length (String1) = m and length (String2) = n.
 Both the basic and memory efficient versions are implemented in O(mn) as we loop through each character of both strings.
 
