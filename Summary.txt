@@ -1,17 +1,7 @@
-Yash Pragnesh Gandhi - 1150578261
-Vidhi Tushar Mehta - 5785266856
-Gursimar Kaur – 8158006198
-
 Insights and Observations:
 
-A.	Contribution: 
 
-Basic algorithm- Vidhi Tushar Mehta, Gursimar Kaur
-Efficient algorithm implementation- Yash Pragnesh Gandhi, Vidhi Tushar Mehta
-Graph Plots and Summary- Gursimar Kaur, Yash Pragnesh Gandhi
-
-
-B.	Comments on why the efficient and basic versions have different memory and time plots.
+B.	Why the efficient and basic versions have different memory and time plots.
 
 Let length (String1) = m and length (String2) = n.
 
