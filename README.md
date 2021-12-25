@@ -1,4 +1,4 @@
-# sequence-alignment-problem
+# Sequence-alignment-problem
 Basic version (only DP) vs Memory efficient version using Divide and Conquer and Dynamic Programming
 
 **-> Why the efficient and basic versions have different memory and time plots.
